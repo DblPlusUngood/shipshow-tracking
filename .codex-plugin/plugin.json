@@ -1,0 +1,25 @@
+{
+  "name": "shipshow-tracking",
+  "version": "0.1.0+codex.20260921004505",
+  "description": "Read-only ShipShow tracking for Facilitate.Life using a locally stored API key.",
+  "author": {
+    "name": "Jason Retzke"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ShipShow Tracking",
+    "shortDescription": "Packages, arrival estimates and delivery exceptions.",
+    "longDescription": "Personal local integration for reading ShipShow through its API. Combines shipment evidence with separately verified purchase records. No package changes or recurring monitoring.",
+    "developerName": "Personal Facilitate.Life integration",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Show my incoming packages.",
+      "Which deliveries require me to be home?",
+      "Reconcile my shipments with purchase records."
+    ]
+  }
+}
