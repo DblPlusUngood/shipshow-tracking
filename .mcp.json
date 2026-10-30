@@ -3,7 +3,7 @@
     "shipshow": {
       "command": "/usr/bin/python3",
       "args": [
-        "/Users/jdretzke/CodexWork/Local/Facilitate.Life/plugins/shipshow-tracking/scripts/shipshow.py",
+        "/Users/jdretzke/CodexWork/GitHub/shipshow-tracking/scripts/shipshow.py",
         "serve"
       ]
     }
